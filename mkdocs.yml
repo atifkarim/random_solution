@@ -1,0 +1,15 @@
+site_name: Random Solution
+
+nav:
+    - Overview:
+        - 'Topics': index.md
+
+
+theme:
+    name: material
+    palette:
+        scheme: slate
+        primary: brown
+
+repo_name: 'Random Solution'
+repo_url: 'https://github.com/atifkarim/random_solution'
