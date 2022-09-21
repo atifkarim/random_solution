@@ -3,9 +3,11 @@
 Purpose of this document is to gather random solution of different problems
 related to programming, Linux, tools etc.
 
-## YOLO
+## Image Processing
 
 - [Work with YOLO](command_for_yolo.md)
+- [OpenCV](opencv.md)
+
 
 <!--
 For full documentation visit [mkdocs.org](https://mkdocs.org).
