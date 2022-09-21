@@ -5,9 +5,9 @@ related to programming, Linux, tools etc.
 
 ## Image Processing
 
+- [OpenCV](opencv.md)
 - [Work with YOLO](command_for_yolo.md)
 - [Training, Testing with YOLO](training_testing_yolo.md)
-- [OpenCV](opencv.md)
 
 ## Web Task
 - [Start server](start_server.md)
