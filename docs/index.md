@@ -13,6 +13,7 @@ related to programming, Linux, tools etc.
 - [Start server](start_server.md)
 
 ## Miscellaneous
+- [OpenVPN](openvpn_ubuntu.md)
 - [Youtube Sound](youtube_sound.md)
 
 
