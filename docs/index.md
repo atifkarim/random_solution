@@ -12,6 +12,9 @@ related to programming, Linux, tools etc.
 ## Web Task
 - [Start server](start_server.md)
 
+## Miscellaneous
+- [Youtube Sound](youtube_sound.md)
+
 
 <!--
 For full documentation visit [mkdocs.org](https://mkdocs.org).
