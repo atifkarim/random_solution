@@ -8,6 +8,9 @@ related to programming, Linux, tools etc.
 - [Work with YOLO](command_for_yolo.md)
 - [OpenCV](opencv.md)
 
+## Web Task
+- [Start server](start_server.md)
+
 
 <!--
 For full documentation visit [mkdocs.org](https://mkdocs.org).
