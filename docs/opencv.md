@@ -57,3 +57,10 @@ ldconfig
 exit
 cd ~
 ```
+
+
+## Install OpenCV in virtual environment
+
+- [Initial Source](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/)
+- If problem occurs then try [this](/https://github.com/ContinuumIO/anaconda-issues/issues/9601
+)
