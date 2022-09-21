@@ -6,6 +6,7 @@ related to programming, Linux, tools etc.
 ## Image Processing
 
 - [Work with YOLO](command_for_yolo.md)
+- [Training, Testing with YOLO](training_testing_yolo.md)
 - [OpenCV](opencv.md)
 
 ## Web Task
