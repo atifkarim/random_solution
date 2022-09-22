@@ -14,6 +14,7 @@ related to programming, Linux, tools etc.
 
 ## Miscellaneous
 - [OpenVPN](openvpn_ubuntu.md)
+- [Software Update in Ubuntu](update_in_ubuntu.md)
 - [Youtube Sound](youtube_sound.md)
 
 
