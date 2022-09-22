@@ -5,7 +5,8 @@ nav:
         - 'Topics': index.md
 
 theme:
-    name: material
+    # name: material
+    name: readthedocs
     favicon: 'images/site_logo.png'
     logo: 'images/site_logo.png'
     palette:
