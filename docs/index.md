@@ -16,6 +16,7 @@ related to programming, Linux, tools etc.
 - [OpenVPN](openvpn_ubuntu.md)
 - [Software Update in Ubuntu](update_in_ubuntu.md)
 - [Youtube Sound](youtube_sound.md)
+- [Miscellaneous Problem](miscellaneous_problem.md)
 
 
 <!--
