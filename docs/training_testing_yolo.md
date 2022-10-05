@@ -8,7 +8,7 @@ Training and Testing with YOLO
 
 ### Make YOLO format text file
 
-- Cloned the repo from https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool .
+- Required Git Repository is [here](https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool).
 - Here, you will see two folder - `Images` and `Labels`. These 2 are main folders.
 - In 'Images' folder keep all of your RGB images(whole image, not crop) in the specific folder. For example, you have images of 10 classes. So, make `001,002,......,0010` folder and keep the corresponding images in the respective folder.
 - Now, keep the annotated text file in the Labels folder as the same way you have kept files and folders in the `Images` folder.
@@ -29,7 +29,7 @@ Training and Testing with YOLO
 
 ### Some changes
 
-    - In the beginning of the executuon of this code please give the folder_number. for 001 or 002 put in the console 1 or 2. For, 0011 or 0015 please put 11 or 15. It will modify the following lines.
+    - In the beginning of the execution of this code please give the folder_number. for 001 or 002 put in the console 1 or 2. For, 0011 or 0015 please put 11 or 15. It will modify the following lines.
 
     - In line 29 no need to touch
 
@@ -65,11 +65,19 @@ Training and Testing with YOLO
 
 ### Encountered Error
 
-- In the `darknet/cfg/yolo-obj.cfg` check (try to check also https://github.com/pjreddie/darknet/issues/236)
+- Check the following file `darknet/cfg/yolo-obj.cfg`. Also check [this file](https://github.com/pjreddie/darknet/issues/236)
 - Search for classes. 3 times you will get it.
 - Change classes = give_the_desired_number_of_class
-- Search for `num`. in yolov3 `num` by default given 9. So, why ths num?? It helps to give the filter number. Formula of filter number in `yolov3` is `filter = (num/3)*(classes+5)` and in0 `yolov2` is `num*(classes+5)`
-- But where this `filter number` you will change?? Go to `darknet/cfg/yolo-obj.cfg` and find `yolo` word. You will see 3 times `yolo` will be appeared. Before this `yolo` word you will see `filters` is written. Change the number here. You will also see other `filter` also written in the other places of the file but no need to change.
+- Search for `num`. in `yolov3` `num` by default given 9.
+- What is the significance of this `num`?
+    - It helps to give the `filter number`.
+    - Formula of `filter number` in `yolov3` is `filter = (num/3)*(classes+5)`
+    - For `yolov2` is `num*(classes+5)`
+- But where this `filter number` you will change?
+    - Go to `darknet/cfg/yolo-obj.cfg` and find `yolo` word.
+    - You will see 3 times `yolo` will be appeared.
+    - Before this `yolo` word you will see `filters` is written. Change the number here.
+    - You will also see other `filter` also written in the other places of the file but no need to change.
 
 ## Testing Image
 
