@@ -12,6 +12,9 @@ related to programming, Linux, tools etc.
 ## Web Task
 - [Start server](start_server.md)
 
+## Programming Language Resources
+- [C++](cpp_resources.md)
+
 ## Miscellaneous
 - [OpenVPN](openvpn_ubuntu.md)
 - [Software Update in Ubuntu](update_in_ubuntu.md)
