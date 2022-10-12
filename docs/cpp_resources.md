@@ -11,6 +11,11 @@ Open source learning materials of C++ are listed
 ### CMake
 
 - [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+- [Simple Modern CMake Tutorial](https://levelup.gitconnected.com/simple-modern-cmake-tutorial-b0c1c362cd2c)
+
+### Conan
+
+ - [Conan package manager tutorial](https://levelup.gitconnected.com/conan-package-manager-tutorial-bfb308ddd7a)
 
 ### C++ performance analysis
 
