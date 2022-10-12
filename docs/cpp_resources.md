@@ -25,3 +25,4 @@ Open source learning materials of C++ are listed
 - [Clang uses -pg](https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-pg)
 - [Profiling with Instrumentation](https://clang.llvm.org/docs/UsersManual.html#profiling-with-instrumentation)
 - [TUTORIAL FOR BUILDING TOOLS USING LIBTOOLING AND LIBASTMATCHERS](https://clang.llvm.org/docs/LibASTMatchersTutorial.html)
+- [XRay Instrumentation](https://llvm.org/docs/XRay.html)
