@@ -7,6 +7,8 @@ Here, I will try to  different commands to use Docker.
 1. Usually docker requires to run in `superuser` or `root` mode. Also possible without `root` mode. Will write later regarding this.
 1. To build a docker image at first create a account in [docker hub](https://docs.docker.com/docker-hub/#step-1-sign-up-for-a-docker-account) and create a [repository](https://docs.docker.com/docker-hub/#step-2-create-your-first-repository)
 1. To build a docker `docker build -t <your_username>/repository_name .`. Don't miss the last argument `a dot (.)`
+1. To run a docker image `docker run <your_username>/repository_name`
+1. To push docker image to dicker hub: `docker push <your_username>/repository_name`. This command is also available in the docker hub repository.
 1. To get all info related to docker: `docker system df -v`
 1. All docker image list : `docker images` or `docker images -a`
 1. All container list: `docker container ls -a`
