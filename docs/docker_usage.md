@@ -12,7 +12,7 @@ Here, I will try to  different commands to use Docker.
 1. To get all info related to docker: `docker system df -v`
 1. All docker image list : `docker images` or `docker images -a`
 1. All container list: `docker container ls -a`
-1. To delete a docker image: `docker rmi IMAGE_TAG`. If need to force: `docker rm -f IMAGE_TAG`
+1. To delete a docker image: `docker rmi IMAGE_TAG`. If need to force: `docker rmi -f IMAGE_TAG`
 1. To delete a docker container: `docker rm IMAGE_TAG`
 
 
