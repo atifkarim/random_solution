@@ -18,7 +18,8 @@ Source taken from [here](https://askubuntu.com/a/696648/1128908)
 
 ## Ethernet problem in Ubuntu
 
-See [here](https://askubuntu.com/a/71205/1128908). The steps are also written in the following lines:
+### Wired connection Issue
+See [here](https://askubuntu.com/a/71205/1128908) to get description of the problem. The steps are also written in the following lines:
 
 ```sh
 sudo nano /etc/NetworkManager/NetworkManager.conf
@@ -27,6 +28,35 @@ change the line `managed=false` to `managed=true`. Save, stop and start `network
 ```sh
 sudo service network-manager restart
 ```
+
+### After suspend Ethernet connection is lost issue
+
+After suspend my ubuntu 20.04 Ethernet connection cannot established again. I have found a solution [here](https://askubuntu.com/a/1058760/1128908)
+
+What I have done:
+- At first to get the driver info I have used this command `sudo lshw -C network`
+- This one has provided infos where I have looked for `description: Ethernet interface`. In this section I have found a line started with `configuration: autonegotiation=on broadcast=yes driver=r8168`. This line has more info but that are not important.
+- In the directory `/etc/systemd/system/` I have created a file named `fix_r8168.service`
+- I have copied and pasted the answer in that file by changing the driver number only
+    ```sh
+    [Unit]
+    Description=Fix RTL-8168 Driver on resume from suspend
+    After=suspend.target
+
+    [Service]
+    User=root
+    Type=oneshot
+    ExecStartPre=/sbin/modprobe -r r8168
+    ExecStart=/sbin/modprobe r8168
+    TimeoutSec=0
+    StandardOutput=syslog
+
+    [Install]
+    WantedBy=suspend.target
+    ```
+- After this enabled the service by teh command `systemctl enable fix_r8168.service`.
+
+The above steps has solved the issue.
 
 ## Problem with `unmet dependencies`
 
