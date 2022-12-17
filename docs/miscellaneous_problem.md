@@ -99,3 +99,7 @@ See the solution [here](https://stackoverflow.com/a/46960872/10634362)
 ## Install Ubuntu with Windows
 
 See [here](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73).
+
+## Connect bluetooth device
+
+I have faced problem while trying to connect bluetooth headphone. It was not detected in the panel. This [post](https://medium.com/@karankajrolkar/ubuntu-20-04-bluetooth-earphones-not-connecting-ed2df2ef5a3d) has helped me to solve the problem.
