@@ -15,7 +15,7 @@ Here, I will try to  different commands to use Docker.
 1. All docker image list : `docker images` or `docker images -a`
 1. All container list: `docker container ls -a`
 1. To delete a docker image: `docker rmi IMAGE_TAG`. If need to force: `docker rmi -f IMAGE_TAG`
-1. To delete a docker container: `docker rm IMAGE_TAG`
+1. To delete a docker container: `docker rm CONTAINER_ID`
 1. Delete all container with single command:
 
     ```sh
