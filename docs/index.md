@@ -15,7 +15,11 @@ related to programming, Linux, tools etc.
 ## Programming Language Resources
 - [C++](cpp_resources.md)
 
-## Docker
+## DevOps
+
+### DevOps Tool
+- [Necessary tools for DevOps](devops_tool.md)
+### Docker
 - [Learning Docker](docker_usage.md)
 
 ## Miscellaneous
