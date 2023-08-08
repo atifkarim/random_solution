@@ -65,6 +65,14 @@ Lets assume this works related to `redis` docker image , see [here](https://hub.
     1. And `docker start CONTAINER_ID` will start a container with the provided attributes
 
 
+# Docker file syntax
+
+Here, a complete syntax will be added later. Some confusing syntax is discussed below.
+
+1. `RUN mkdir -p /home/src` - Here, this `RUN` command can execute as like as Linux command but remember this will be applied only inside of the container
+1. `COPY . /home/src` - Here, `COPY` command executes on the HOST machine and from `source` it copies all contents to the `target` which resides in the container. Here, it is not possible to use `RUN cp . /home/src` as `RUN` only works on the container.
+1. `CMD ["python3", "app.py"]` - It is nothing but the alias of `python3 app.py` which user run on terminal. But, in a docker file `CMD` will be only 1 time and this is the `Entrypoint`. That's why here also user cannot use `RUN` command as in docker file multiple `RUN` command can present but entrypoint will be unique and this is the reason of using `CMD` and `RUN` command.
+
 
 # Resources
 1. [A github Repo](https://github.com/prakhar1989/docker-curriculum) where I have found organized information on Docker
