@@ -13,9 +13,9 @@ Here, I will try to  different commands to use Docker.
 1. To push docker image to docker hub: `docker push <your_username>/repository_name`. This command is also available in the docker hub repository.
 1. To get all info related to docker: `docker system df -v`
 1. All docker image list : `docker images` or `docker images -a`
-1. All container list: `docker container ls -a`
-1. To delete a docker image: `docker rmi IMAGE_TAG`. If need to force: `docker rmi -f IMAGE_TAG`
-1. To delete a docker container: `docker rm CONTAINER_ID`
+1. All container list: `docker container ls -a`.
+1. To delete a docker container: `docker rm CONTAINER_ID`. By using `docker ps` user can find `CONTAINER ID`.
+1. To delete a docker image: `docker rmi IMAGE_ID`. If need to force: `docker rmi -f IMAGE_ID`. By using `docker images` user can find `IMAGE ID`.
 1. Delete all container with single command:
 
     ```sh
