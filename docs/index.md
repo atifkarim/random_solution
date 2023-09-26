@@ -22,6 +22,10 @@ related to programming, Linux, tools etc.
 ### Docker
 - [Learning Docker](docker_usage.md)
 
+## Embedded Linux
+### Command line
+- [GCC Command Line options](gcc_command_line_options.md)
+
 ## Miscellaneous
 - [OpenVPN](openvpn_ubuntu.md)
 - [Software Update in Ubuntu](update_in_ubuntu.md)
