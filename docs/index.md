@@ -23,6 +23,8 @@ related to programming, Linux, tools etc.
 - [Learning Docker](docker_usage.md)
 
 ## Embedded Linux
+### Yocto
+- [Yocto Tutorial](Yocto_learning/yocto_index.md)
 ### Command line
 - [GCC Command Line options](gcc_command_line_options.md)
 
