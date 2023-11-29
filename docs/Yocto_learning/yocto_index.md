@@ -23,6 +23,7 @@ In this section I will try to add the theme of the steps by which I have learned
 - [Installation and first trial](1_yocto_intro.md)
 - [Local configuration](2_local_conf.md)
 - [BBlayers configuration](3_bblayers.md)
+- [Package inclusion](4_Add_package.md)
 
 ## Sources
 
