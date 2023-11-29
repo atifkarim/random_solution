@@ -15,6 +15,10 @@ This file contains the information of the layers.
     - How to configure the source
     - How to compile
 - Usually layers name starts with `meta` word. It is a convention to use.
+
+
+## Command
+
 - To show which layers are added use the following command from `poky/build` directory(Do not forget to `source oe-init-build-env` if not done yet):
   ```bash
   bitbake-layers show-layers
@@ -29,6 +33,7 @@ This file contains the information of the layers.
   meta-poky             /home/vmash18/yocto/poky/meta-poky        5
   meta-yocto-bsp        /home/vmash18/yocto/poky/meta-yocto-bsp   5
   ```
+
 - One can new layers in the `bblayers.conf` file manually or using command(Here, as a random manner I have added `meta-skeleton` layer):
   ```bash
   bitbake-layers add-layer ../meta-skeleton/
