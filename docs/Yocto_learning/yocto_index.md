@@ -21,6 +21,8 @@ Linux vmash18-Standard-PC-Q35-ICH9-2009 5.4.0-150-generic #167~18.04.1-Ubuntu SM
 In this section I will try to add the theme of the steps by which I have learned this technology.
 
 - [Installation and first trial](1_yocto_intro.md)
+- [Local configuration](2_local_conf.md)
+- [BBlayers configuration](3_bblayers.md)
 
 ## Sources
 

@@ -10,7 +10,7 @@ This document shares the information regarding kickstart of Yocto and creation o
 This steps starts with the installation of the yocto. I have followed here [This tutorial](https://dornerworks.com/blog/heres-how-you-can-build-your-own-custom-linux-distro-with-yocto/)
 
 
-### Summary of the steps
+## Summary of the steps
 
 - If you just follow the first tutorial you will reach at a stage where you will get first directory, named will be chosen by you, eg: `yocto`. I prefer to keep it at `/home` directory.
 - Inside of this directory, I hope that already `Yocto Poky` git repo is 
