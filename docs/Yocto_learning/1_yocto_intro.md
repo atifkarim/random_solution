@@ -50,7 +50,7 @@ cloned
  
 - To run this using qemu from build directory:
     ```bash
-    vmash18@vmash18-Standard-PC-Q35-ICH9-2009:~/yocto/poky/build$ runqemu ../../sources/tmp/deploy/images/qemux86/
+    runqemu ../../sources/tmp/deploy/images/qemux86/
     ```
     A console will be appeared where `login` will be `root`, and it will require no password.
 
