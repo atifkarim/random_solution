@@ -24,7 +24,7 @@ This file contains the information of the layers.
   bitbake-layers show-layers
   ```
 
-  Output could be as like as follows:
+-  Output could be as like as follows:
   ```bash
   NOTE: Starting bitbake server...
   layer                 path                                      priority
