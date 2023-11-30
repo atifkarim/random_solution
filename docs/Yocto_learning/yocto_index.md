@@ -24,6 +24,9 @@ In this section I will try to add the theme of the steps by which I have learned
 - [Local configuration](2_local_conf.md)
 - [BBlayers configuration](3_bblayers.md)
 - [Package inclusion](4_Add_package.md)
+- [Create Layer](5_create_layer.md)
+- [Yocto variable](6_different_var.md)
+- [Assignment variable](7_assignment_variable.md)
 
 ## Sources
 
