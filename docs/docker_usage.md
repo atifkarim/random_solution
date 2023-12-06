@@ -1,6 +1,19 @@
 Docker Learning
 ===============
 
+This document will show some commands as well as the installation(pre & post) process of Docker in Ubuntu
+
+# Installation process
+
+## Install using the apt repository
+
+Follow [this link](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) to do the installation
+
+## Provide non root access to docker
+
+Usually, docker prefer to have root permission by the user. But it is possible to tweak it. You can simply add $USER to the docker group
+- Follow [this link](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user) to activate this feature.
+
 Here, I will try to  different commands to use Docker.
 
 # Useful commands for Docker
