@@ -18,18 +18,18 @@ Here, I will try to  different commands to use Docker.
 
 # Useful commands for Docker
 
-1. Usually docker requires to run in `superuser` or `root` mode. Also possible without `root` mode. Will write later regarding this.
-1. To build a docker image at first create a account in [docker hub](https://docs.docker.com/docker-hub/#step-1-sign-up-for-a-docker-account) and create a [repository](https://docs.docker.com/docker-hub/#step-2-create-your-first-repository)
-1. To build a docker `docker build -t <your_username>/repository_name .`. Don't miss the last argument `a dot (.)`
-1. To avoid intermediate and None images try this while building `sudo docker build -rm <your_username>/repository_name .` [Source](https://forums.docker.com/t/how-to-remove-none-images-after-building/7050/7).
-1. To run a docker image `docker run <your_username>/repository_name`
-1. To push docker image to docker hub: `docker push <your_username>/repository_name`. This command is also available in the docker hub repository.
-1. To get all info related to docker: `docker system df -v`
-1. All docker image list : `docker images` or `docker images -a`
-1. All container list: `docker container ls -a`.
-1. To delete a docker container: `docker rm CONTAINER_ID`. By using `docker ps` user can find `CONTAINER ID`.
-1. To delete a docker image: `docker rmi IMAGE_ID`. If need to force: `docker rmi -f IMAGE_ID`. By using `docker images` user can find `IMAGE ID`.
-1. Delete all container with single command:
+1. Usually docker requires to run in `superuser` or `root` mode. Also possible without `root` mode, [see this](#provide-non-root-access-to-docker)
+2. To build a docker image at first create a account in [docker hub](https://docs.docker.com/docker-hub/#step-1-sign-up-for-a-docker-account) and create a [repository](https://docs.docker.com/docker-hub/#step-2-create-your-first-repository)
+3. To build a docker `docker build -t <your_username>/repository_name .`. Don't miss the last argument `a dot (.)`
+4. To avoid intermediate and None images try this while building `sudo docker build -rm <your_username>/repository_name .` [Source](https://forums.docker.com/t/how-to-remove-none-images-after-building/7050/7).
+5. To run a docker image `docker run <your_username>/repository_name`
+6. To push docker image to docker hub: `docker push <your_username>/repository_name`. This command is also available in the docker hub repository.
+7. To get all info related to docker: `docker system df -v`
+8. All docker image list : `docker images` or `docker images -a`
+9. All container list: `docker container ls -a`.
+10. To delete a docker container: `docker rm CONTAINER_ID`. By using `docker ps` user can find `CONTAINER ID`.
+11. To delete a docker image: `docker rmi IMAGE_ID`. If need to force: `docker rmi -f IMAGE_ID`. By using `docker images` user can find `IMAGE ID`.
+12. Delete all container with single command:
 
     ```sh
     sudo docker rm -vf $(sudo docker ps -aq)
