@@ -103,3 +103,7 @@ See [here](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-d
 ## Connect bluetooth device
 
 I have faced problem while trying to connect bluetooth headphone. It was not detected in the panel. This [post](https://medium.com/@karankajrolkar/ubuntu-20-04-bluetooth-earphones-not-connecting-ed2df2ef5a3d) has helped me to solve the problem.
+
+## Activate finger gestures
+
+T activate the gestures in Ubuntu follow [this link](https://medium.com/@yash9439/how-to-enable-touchpad-gestures-in-ubuntu-22-04-c0ec460c423)
