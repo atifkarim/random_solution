@@ -106,4 +106,4 @@ I have faced problem while trying to connect bluetooth headphone. It was not det
 
 ## Activate finger gestures
 
-T activate the gestures in Ubuntu follow [this link](https://medium.com/@yash9439/how-to-enable-touchpad-gestures-in-ubuntu-22-04-c0ec460c423)
+To activate the gestures in Ubuntu, follow [this link](https://medium.com/@yash9439/how-to-enable-touchpad-gestures-in-ubuntu-22-04-c0ec460c423)
