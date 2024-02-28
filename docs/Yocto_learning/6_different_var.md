@@ -1,6 +1,8 @@
 Variable
 ========
 
+## Objective
+
 This doc will depict about several yocto variables
 
 ## Example file name
